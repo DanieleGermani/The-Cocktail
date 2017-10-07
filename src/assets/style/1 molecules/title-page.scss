@@ -1,0 +1,14 @@
+@import "../variables/export";
+
+.title-page{
+  text-transform: uppercase;
+}
+
+.img-background-ship{
+  font-family: 'NovaLight';
+  color: $color-white;
+  background-image: $img-background-ship;
+  background-size: cover;
+  padding-right: 0;
+  padding-left: 0;
+}

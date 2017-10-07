@@ -14,7 +14,7 @@
   color: $color-white;
   padding: $gap-S-8 $gap-M-16;
   text-transform: uppercase;
-  margin-top: $gap-L-32;
+  margin-top: 22px;
 }
 
 .dropdown-button {
@@ -26,4 +26,11 @@
     content: $img-path;
     margin: $gap-XS-4;
   }
+}
+
+.sec-button{
+  background-color: $color-bone;
+  border-color: $color-pastelblue;
+  border-radius: $gap-XS-4;
+  color: $color-blue;
 }

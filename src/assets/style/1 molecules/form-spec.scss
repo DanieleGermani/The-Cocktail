@@ -1,0 +1,37 @@
+@import "../variables/export";
+
+.spec {
+  text-align: center;
+  padding: $gap-M-16 $gap-M-16 $gap-L-32;
+
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+    img {
+      position: absolute;
+
+      &:first-child {
+        transform: translateY(6px);
+      }
+    }
+  }
+
+  h4 {
+    text-transform: capitalize;
+  }
+
+  p {
+    height: 3em;
+    text-overflow: ellipsis;
+  }
+
+  a {
+    display: block;
+    height: 1.5em;
+    text-overflow: ellipsis;
+    margin-bottom: $gap-S-8;
+  }
+}

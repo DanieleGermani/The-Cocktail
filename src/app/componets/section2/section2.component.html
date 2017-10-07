@@ -1,46 +1,18 @@
-<article class="container-fluid hero">
-  <section class="container">
-    <div class="pane">
-      <form class="row" action="">
-        <div class="col-xs-3">
-          <label for="">Origin:</label>
-
-          <input name="search" (keyup.enter)="searchCities(searchText.value)"
-          #searchText
-          class="form-control" type="text" value="{{_infoS.cities[0]}}">
-        </div>
-        <div class="col-xs-3">
-          <label for="">Destination:</label>
-          <input class="form-control" type="search" value="{{_infoS.cities[1]}}" >
-        </div>
-        <div class="col-xs-3">
-          <label for="">Aprox date:</label>
-          <input class="form-control" type="datetime-local" value="Select Date" >
-        </div>
-        <div class="col-xs-3">
 
 
-          <button class="form-button" type="button" name="button">GET A CUOTE</button>
-        </div>
-      </form>
-    </div>
-  </section>
-
-</article>
-
-<article class="container-fluid company-specs">
+<article class="container-fluid form-top">
   <section class="container">
     <div class="row">
-      <div *ngFor="let item of _infoS.info" class="spec col-sm-3">
+      <div  class="spec col-sm-3">
         <figure class="icon">
           <img src="/assets/images/Oval 12 Copy 3.svg" alt="booblr">
           <img src="/assets/images/Group Copy 8.svg" alt="booblr">
         </figure>
         <h4>Ocean freight</h4>
-        <p class="">{{item.value}}</p>
-        <a class="">{{item.icon_url}}</a>
-        <a class="">{{item.id}}</a>
-        <button>more details</button>
+        <p class="">nada</p>
+        <a class="">nada</a>
+        <a class="">nada</a>
+        <button class="sec-button">more details</button>
       </div>
     </div>
   </section>
