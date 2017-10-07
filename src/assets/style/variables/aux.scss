@@ -1,0 +1,20 @@
+@import "./export";
+
+
+.left-container{
+  border-left: 2px solid $color-lightblue;
+}
+
+.right-container{
+  border-right: 2px solid $color-lightblue;
+}
+
+.occluder{
+  background-color: transparentize($color-blue, 0.05);
+  padding: $gap-L;
+  width: 100%;
+}
+
+.pos-absolute{
+  position: absolute;
+}
