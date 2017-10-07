@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-@import "./assets/style/variables/colors";
-@import "./assets/style/variables/gaps";
-@import "./assets/style/variables/font";
-@import "./assets/style/variables/global";
+@import "./assets/style/variables/export";
+
+@import "./assets/style/0 atoms/buttons.scss";
+@import "./assets/style/0 atoms/embed-img.scss";
