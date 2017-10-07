@@ -1,0 +1,11 @@
+@import "../variables/export";
+
+
+.form-back{
+  padding: $gap-M-16;
+  margin-top: 37px;
+  margin-bottom: $gap-M-16;
+  border: 5px solid $color-darkblue;
+  background-color: $color-bone;
+  color: black;
+}

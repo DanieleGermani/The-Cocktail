@@ -35,18 +35,18 @@
   </section>
 
   <section class="container">
-    <div class="pane">
+    <div class="form-back">
       <form class="row" action="">
         <div class="col-xs-3">
           <label for="">Origin:</label>
 
           <input name="search" (keyup.enter)="searchCities(searchText.value)"
           #searchText
-          class="form-control" type="text" value="{{_infoS.cities[0]}}">
+          class="form-control" type="text" value="">
         </div>
         <div class="col-xs-3">
           <label for="">Destination:</label>
-          <input class="form-control" type="search" value="{{_infoS.cities[1]}}" >
+          <input class="form-control" type="search" value="" >
         </div>
         <div class="col-xs-3">
           <label for="">Aprox date:</label>
@@ -61,4 +61,22 @@
     </div>
   </section>
 
+</article>
+
+<article class="container-fluid form-down">
+  <section class="container">
+    <div class="row">
+      <div  class="spec col-sm-3">
+        <figure class="icon">
+          <img src="/assets/images/Oval 12 Copy 3.svg" alt="booblr">
+          <img src="/assets/images/Group Copy 8.svg" alt="booblr">
+        </figure>
+        <h4>Ocean freight</h4>
+        <p class="">nada</p>
+        <a class="">nada</a>
+        <a class="">nada</a>
+        <button>more details</button>
+      </div>
+    </div>
+  </section>
 </article>
