@@ -1,0 +1,1 @@
+@font-face{font-family:'NovaLight';src:url("/assets/fonts/Proxima Nova Light.woff")}@font-face{font-family:'NovaRegular';src:url("/assets/fonts/Proxima Nova Reg.woff")}@font-face{font-family:'NovaBold';font-weight:bold;src:url("/assets/fonts/Proxima Nova Bold.woff")}body{font-family:'NovaLight'}.item{display:inline-block;font-family:'NovaRegular';margin-right:16px}

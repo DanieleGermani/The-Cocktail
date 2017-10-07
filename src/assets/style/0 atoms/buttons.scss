@@ -1,19 +1,29 @@
 @import "../variables/_export.scss";
 
-.header-button{
-  background-color:  $color-white;
+.header-button {
+  background-color: $color-white;
   border: 2px solid $color-orange;
   color: $color-orange;
   padding: $gap-S-8 $gap-M-16;
   text-transform: uppercase;
 }
 
-.form-button{
+.form-button {
   background-color: $color-orange;
   border: 2px solid $color-orange;
   color: $color-white;
   padding: $gap-S-8 $gap-M-16;
   text-transform: uppercase;
   margin-top: $gap-L-32;
+}
 
+.dropdown-button {
+  display: inline-block;
+  font-family: 'NovaRegular';
+  text-transform: uppercase;
+
+  &:after {
+    content: $img-path;
+    margin: $gap-XS-4;
+  }
 }

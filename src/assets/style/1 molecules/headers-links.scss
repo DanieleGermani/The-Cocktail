@@ -1,0 +1,22 @@
+@import "../variables/export";
+
+.links{
+  margin-top: $gap-M-16;
+  padding: $gap-XS-4;
+
+  div{
+    display: inline-block;
+    font-family: 'NovaBold';
+    font-weight: bold;
+    margin-right: $gap-M-16;
+    text-transform: uppercase;
+
+    &:last-child{
+      margin-right: 0;
+    }
+
+    &.selected{
+      color: $color-orange;
+    }
+  }
+}

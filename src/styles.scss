@@ -1,5 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 @import "./assets/style/variables/export";
 
-@import "./assets/style/0 atoms/buttons.scss";
-@import "./assets/style/0 atoms/embed-img.scss";
+@import "./assets/style/0 atoms/buttons";
+@import "./assets/style/0 atoms/embed-img";
+
+@import "./assets/style/1 molecules/item-text";
+@import "./assets/style/1 molecules/headers-links";
+
+
+@import "./assets/style/2 organisms/header-color"
