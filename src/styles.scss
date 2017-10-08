@@ -1,20 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
-@import "./assets/style/variables/export";
+@import "./assets/style/0 variables/export";
 
-@import "./assets/style/0 atoms/buttons";
-@import "./assets/style/0 atoms/embed-img";
-@import "./assets/style/0 atoms/section";
+@import "./assets/style/1 atoms/buttons";
+@import "./assets/style/1 atoms/embed-img";
+@import "./assets/style/1 atoms/section";
 
-@import "./assets/style/1 molecules/item-text";
-@import "./assets/style/1 molecules/headers-links";
-@import "./assets/style/1 molecules/title-page";
-@import "./assets/style/1 molecules/form-down-section";
-@import "./assets/style/1 molecules/figure-service";
-@import "./assets/style/1 molecules/link-section";
-@import "./assets/style/1 molecules/logo-footer";
+@import "./assets/style/2 molecules/item-text";
+@import "./assets/style/2 molecules/headers-links";
+@import "./assets/style/2 molecules/title-page";
+@import "./assets/style/2 molecules/form-down-section";
+@import "./assets/style/2 molecules/form-spec";
+@import "./assets/style/2 molecules/figure-service";
+@import "./assets/style/2 molecules/link-section";
+@import "./assets/style/2 molecules/logo-footer";
 
-
-@import "./assets/style/2 organisms/header-color";
-@import "./assets/style/2 organisms/form-down-section";
-@import "./assets/style/2 organisms/form-top-tab";
-@import "./assets/style/2 organisms/form-grid";
+/*ORGANISMS*/
+@import "./app/app.component.scss";
