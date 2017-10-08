@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {HttpModule} from '@angular/http';
 
+/*Components*/
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './componets/header/header.component';
 import { Section1Component } from './componets/section1/section1.component';
@@ -10,6 +12,10 @@ import { FooterComponent } from './componets/footer/footer.component';
 import { Section4Component } from './componets/section4/section4.component';
 import { Section5Component } from './componets/section5/section5.component';
 import { Section6Component } from './componets/section6/section6.component';
+
+/*Services*/
+import {ApiGeneratorService } from './services/api-generator.service';
+
 
 @NgModule({
   declarations: [
@@ -24,9 +30,10 @@ import { Section6Component } from './componets/section6/section6.component';
     Section6Component
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpModule
   ],
-  providers: [],
+  providers: [ApiGeneratorService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
