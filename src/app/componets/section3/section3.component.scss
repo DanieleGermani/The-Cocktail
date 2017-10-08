@@ -9,9 +9,10 @@
     padding: $gap-M-16;
 
     p{
+      display: block;
+      text-overflow: ellipsis;
       overflow: hidden;
-      height: 3em;
-      text-align: justify;
+      height: 1.2em;
     }
 
     button{

@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import {ApiGeneratorService } from './services/api-generator.service';
 import {ChuckjokeService } from './services/chuckjoke.service';
+import {CitiesService } from './services/cities.service';
 
 @Component({
   selector: 'app-root',
@@ -10,9 +11,10 @@ import {ChuckjokeService } from './services/chuckjoke.service';
 export class AppComponent {
 
   constructor(public _RndTextS:ApiGeneratorService,
-              public _RndJoke: ChuckjokeService){
+              public _RndJoke: ChuckjokeService,
+              public _CitiesS: CitiesService){
 
-                
+
               }
 
 

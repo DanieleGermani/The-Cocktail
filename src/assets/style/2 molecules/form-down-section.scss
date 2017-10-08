@@ -34,11 +34,9 @@
 
   a{
     display: block;
-    height: 2em;
     text-overflow: ellipsis;
-    display: block;
     overflow: hidden;
-    margin-bottom: $gap-XS-4;
+    margin-bottom:  $gap-M-16;
   }
 
   button{

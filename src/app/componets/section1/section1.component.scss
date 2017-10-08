@@ -1,6 +1,5 @@
 @import "../../../assets/style/0 variables/export";
 
-
 .tab{
   margin-top: $gap-M-16;
 
@@ -60,7 +59,12 @@
   border: 5px solid $color-darkblue;
   background-color: $color-bone;
   color: black;
-  
+
+  @media (max-width: 990px){
+      text-align: center;
+
+  }
+
 }
 
 .arrow-button-form{
@@ -75,4 +79,6 @@
   padding: $gap-S-8 $gap-M-16;
   text-transform: uppercase;
   margin-top: 22px;
+  font-size: 10px;
+  font-weight: bold;
 }
