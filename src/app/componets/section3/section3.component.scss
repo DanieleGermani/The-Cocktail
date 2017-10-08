@@ -8,18 +8,23 @@
     font-family: 'NovaRegular';
     padding: $gap-M-16;
 
+    p{
+      overflow: hidden;
+      height: 3em;
+      text-align: justify;
+    }
+
     button{
       background-color: $color-bone;
       border: none;
       border-radius: $gap-S-8;
-      padding: 10px;
+      padding: $gap-XS-4 20px;
       color: $color-grey;
       font-weight: bold;
 
       &:hover{
         background-color: $color-pastelblue;
         color: white;
-
 
       }
     }

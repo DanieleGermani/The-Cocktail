@@ -5,6 +5,13 @@
 
   .row{
     padding: $gap-M-16 $gap-XL-64;
+
+    p{
+      height: 1em;
+      display: block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
   }
 
   .underline{
@@ -12,11 +19,12 @@
     transform: translate(0, 181px);
     margin: 0 auto;
     height: 2px;
-    width: unquote("calc(100% - 240px)");
     z-index: -100;
 
-    @media (min-width: 768px){
-      width: 480px;
+
+    @media (max-width: 995px){
+      display: none;
+
     }
     @media (min-width: 992px){
       width: 630px;
@@ -24,6 +32,8 @@
     }
     @media (min-width: 1200px){
       width: 760px;
+
     }
+
   }
 }

@@ -26,14 +26,18 @@
   }
 
   p{
-    height: 3em;
+    height: 4em;
+    display: block;
+    overflow: hidden;
     text-overflow: ellipsis;
   }
 
   a{
     display: block;
-    height: 1.5em;
+    height: 2em;
     text-overflow: ellipsis;
+    display: block;
+    overflow: hidden;
     margin-bottom: $gap-XS-4;
   }
 
@@ -43,6 +47,7 @@
     border-radius: $gap-XS-4;
     color: $color-blue;
     padding: 12px;
+    margin-top: $gap-M-16;
     text-transform: uppercase;
   }
 

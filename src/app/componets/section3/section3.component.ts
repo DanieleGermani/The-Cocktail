@@ -1,15 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import{ApiGeneratorService} from '../../services/api-generator.service';
 
 @Component({
   selector: 'app-section3',
   templateUrl: './section3.component.html',
   styleUrls: ['./section3.component.scss']
 })
-export class Section3Component implements OnInit {
+export class Section3Component  {
 
-  constructor() { }
+  constructor(public _RndTextS:ApiGeneratorService) { }
 
-  ngOnInit() {
-  }
+
 
 }

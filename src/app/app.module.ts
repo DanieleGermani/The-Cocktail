@@ -15,6 +15,7 @@ import { Section6Component } from './componets/section6/section6.component';
 
 /*Services*/
 import {ApiGeneratorService } from './services/api-generator.service';
+import {ChuckjokeService } from './services/chuckjoke.service';
 
 
 @NgModule({
@@ -33,7 +34,7 @@ import {ApiGeneratorService } from './services/api-generator.service';
     BrowserModule,
     HttpModule
   ],
-  providers: [ApiGeneratorService],
+  providers: [ApiGeneratorService,ChuckjokeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
