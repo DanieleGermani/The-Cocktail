@@ -8,7 +8,14 @@
   font-family: 'NovaLight';
   color: $color-white;
   background-image: $img-background-ship;
+  background-position: center;
   background-size: cover;
   padding-right: 0;
   padding-left: 0;
+}
+
+.top-backgroudShip {
+    background-color: rgba(26, 118, 178, 0.95);
+    padding: 32px;
+    width: 100%;
 }

@@ -8,15 +8,6 @@
   text-transform: uppercase;
 }
 
-.form-button {
-  background-color: $color-orange;
-  border: 2px solid $color-orange;
-  color: $color-white;
-  padding: $gap-S-8 $gap-M-16;
-  text-transform: uppercase;
-  margin-top: 22px;
-}
-
 .dropdown-button {
   display: inline-block;
   font-family: 'NovaRegular';
@@ -26,4 +17,5 @@
     content: $img-path;
     margin: $gap-XS-4;
   }
+
 }
