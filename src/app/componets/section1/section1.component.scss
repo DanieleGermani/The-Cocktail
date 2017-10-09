@@ -1,9 +1,9 @@
 @import "../../../assets/style/0 variables/export";
 
-.tab{
+.tab {
   margin-top: $gap-M-16;
 
-  div{
+  div {
     background-color: $color-paleblue;
     display: inline-block;
     font-family: 'NovaRegular';
@@ -11,20 +11,30 @@
     text-transform: uppercase;
     transform: translateY($gap-L-32);
     padding: $gap-S-8 $gap-L-32 $gap-S-8 $gap-M-16;
+    margin-right: 2px;
 
-    img{
+    @media (min-width: 992px){
+          width: 21%;
+    }
+    @media (min-width: 768px){
+    width: 23.333333%;
+
+      &.selected{
+          margin-left: 14px;
+
+      }
+
+    }
+
+    img {
       height: 30px;
     }
 
-    &:not(:first-child){
-      margin-left: -2px;
-    }
-
-    &.selected{
+    &.selected {
       color: $color-pastelblue;
       background-color: $color-dirtyblue;
 
-      &::before{
+      &::before {
         content: "";
         position: absolute;
         display: block;
@@ -34,7 +44,7 @@
         transform: translate(-$gap-M-16,-$gap-M-16);
       }
 
-      &::after{
+      &::after {
         background-color: $color-bone;
         border: 5px solid $color-darkblue;
         border-right: none;
@@ -48,26 +58,22 @@
         transform: translate(75px, $gap-XS-4) rotate(45deg);
       }
     }
-
   }
 }
 /*FORM*/
-.form-back{
+.form-back {
   padding: $gap-L-32;
   margin-top: $gap-XS-4;
   margin-bottom: $gap-M-16;
   border: 5px solid $color-darkblue;
   background-color: $color-bone;
   color: black;
-
-  @media (max-width: 990px){
-      text-align: center;
-
+  @media (max-width: 990px) {
+    text-align: center;
   }
-
 }
 
-.arrow-button-form{
+.arrow-button-form {
   margin-top: 19px;
   width: 45px;
 }
